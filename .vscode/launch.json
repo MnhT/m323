@@ -1,0 +1,42 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "RaceCalculator",
+            "request": "launch",
+            "mainClass": "RaceCalculator",
+            "projectName": "m323_8172b2e3"
+        },
+        {
+            "type": "java",
+            "name": "WordPoints",
+            "request": "launch",
+            "mainClass": "WordPoints",
+            "projectName": "m323_8172b2e3"
+        },
+        {
+            "type": "java",
+            "name": "ReisePlaner",
+            "request": "launch",
+            "mainClass": "ReisePlaner",
+            "projectName": "m323_8172b2e3"
+        },
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/M323/bin/Debug/net7.0/M323.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/M323",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}
